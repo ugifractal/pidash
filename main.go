@@ -47,7 +47,7 @@ func main() {
 			w.Write([]byte("Hello"))
 		})
 	*/
-
+	r.Get("/player/brightness", player.HandleBrightness)
 	r.Get("/player/pause", player.HandlePause)
 	r.Get("/player/volup", func(w http.ResponseWriter, r *http.Request) {
 
