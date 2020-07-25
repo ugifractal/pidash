@@ -1,0 +1,3 @@
+MUSIC_PATH=/home/pi/Downloads
+FRONTEND_PATH=/media/pi/NONAME/dash/pidash-frontend/dist
+SOCK_PATH=/home/pi/vlc.sock
